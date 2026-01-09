@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c279196f86a198944bf87ad1d88e3fd3, type: 3}
+  m_Name: WarriorSkill2Config
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: releaseCostDic
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[SkillCostType, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SkillCostType, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Behaviour
+      Entry: 7
+      Data: 2|WarriorSkill2Behaviour, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+  skillName: "\u7FFB\u6EDA"
+  skillIcon: {fileID: 21300000, guid: 07875a88a19b0dd468e774c2d0d42c5d, type: 3}
+  skillDescription: "\u7FFB\u6EDA\u540E\u53EF\u4EE5\u8FDB\u884C\u4E00\u6B21\u5F3A\u529B\u653B\u51FB"
+  skillPoint: 10
+  canRelease: 1
+  maxLV: 10
+  baseCDTime: 1
+  baseAttackValue: 20
+  cdTimeMultiplierPerLV: 0.05
+  attackValueMultiplierPerLV: 0.1
+  Clips:
+  - {fileID: 11400000, guid: 2268be84ea8224b44a00a8aeaa567178, type: 2}

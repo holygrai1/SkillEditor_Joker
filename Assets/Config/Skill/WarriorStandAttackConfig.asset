@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c279196f86a198944bf87ad1d88e3fd3, type: 3}
+  m_Name: WarriorStandAttackConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: releaseCostDic
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[SkillCostType, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SkillCostType, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Behaviour
+      Entry: 7
+      Data: 2|WarriorStandAttackBehaviour, Assembly-CSharp
+    - Name: standAttackCount
+      Entry: 3
+      Data: 3
+    - Name: sClip1Index
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+  skillName: "\u6218\u58EB\u666E\u653B"
+  skillIcon: {fileID: 21300000, guid: 964aa99f5fb4e684db09dcec4bc3e18a, type: 3}
+  skillDescription: "\u6218\u58EB\u7684\u666E\u901A\u653B\u51FB"
+  skillPoint: 10
+  canRelease: 1
+  maxLV: 10
+  baseCDTime: 0
+  baseAttackValue: 10
+  cdTimeMultiplierPerLV: 0
+  attackValueMultiplierPerLV: 0.1
+  Clips:
+  - {fileID: 11400000, guid: 8f87e75c86524fa43815672b0eb99aaa, type: 2}
+  - {fileID: 11400000, guid: 1aa454458d49f3b44a09a379aeef0cac, type: 2}
+  - {fileID: 11400000, guid: 18b51971a23533a428c70c3025baeaad, type: 2}
+  - {fileID: 11400000, guid: cc5525bd51de7644c81e89e759147f6b, type: 2}
